@@ -24,12 +24,17 @@ const Services = () => {
 			{/* left side */}
 			<div className='awesome'>
 				{/* dark mode */}
-				<span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-				<span>SKILLS</span>
+				<span style={{ color: darkMode ? "white" : "" }}>Developer</span>
+				<span>TOOLBOX</span>
 				<spane>
-					Lorem ispum is simpley dummy text of printing of printing Lorem
+					I'm a passionate, informative, and innovative Frontend Engineer who
+					works innovatively, collectively, and diligently
 					<br />
-					ispum is simpley dummy text of printing
+					to deliver excellent products. I am motivated by new environments
+					where I get to contribute my experience and
+					<br />
+					new technologies to different projects. I always aim for the best
+					outcomes with my problem solving mindset.
 				</spane>
 				<a href={Resume} download>
 					<button className='button s-button'>Download CV</button>
@@ -46,8 +51,10 @@ const Services = () => {
 				>
 					<Card
 						emoji={HeartEmoji}
-						heading={"Design"}
-						detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+						heading={"Framework"}
+						detail={
+							"React.js, Jquery, RESt API,MongoDB, Express.js,EJS, Mongoose , Bootstrap , Tailwind CSS "
+						}
 					/>
 				</motion.div>
 				{/* second card */}
@@ -58,19 +65,19 @@ const Services = () => {
 				>
 					<Card
 						emoji={Glasses}
-						heading={"Developer"}
-						detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+						heading={"Full stack developer"}
+						detail={"Html, Css, JavaScript, Python, Nodejs, Java"}
 					/>
 				</motion.div>
 				{/* 3rd */}
 				<motion.div
 					initial={{ top: "19rem", left: "25rem" }}
 					whileInView={{ left: "12rem" }}
-					transition={transition}
+					transition={{ duration: 2, type: "tween" }}
 				>
 					<Card
 						emoji={Humble}
-						heading={"UI/UX"}
+						heading={"Library"}
 						detail={
 							"Lorem ispum dummy text are usually use in section where we need some random text"
 						}

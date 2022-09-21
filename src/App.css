@@ -1,12 +1,12 @@
 :root {
 	--yellow: #3062b9;
 	--orange: #543aff;
-	--black: #242d49;
-	--gray: #788097;
+	--black: #3a2449;
+	--gray: #1f578f;
 	--blueCard: #ddf8fe;
 	--purple: rgb(238 210 255);
 	--boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
-	--orangeCard: rgba(96, 44, 255, 0.45);
+	--orangeCard: rgba(127, 157, 238, 0.848);
 	--smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
