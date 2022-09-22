@@ -52,8 +52,11 @@
 		margin-top: 200px;
 	}
 
+	.works {
+		margin-bottom: 100px;
+	}
 	.portfolio {
-		margin-top: 300px;
+		margin-top: 90%;
 	}
 
 	.contact-form {
