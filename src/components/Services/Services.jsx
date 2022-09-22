@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
+// import Resume from "./resume.pdf";
 
 const Services = () => {
 	// context
@@ -36,9 +36,9 @@ const Services = () => {
 					new technologies to different projects. I always aim for the best
 					outcomes with my problem solving mindset.
 				</spane>
-				<a href={Resume} download>
-					<button className='button s-button'>Download CV</button>
-				</a>
+				{/* <a href={Resume} download> */}
+				<button className='button s-button'>Download CV</button>
+				{/* </a> */}
 				<div className='blur s-blur1' style={{ background: "#ABF1FF94" }}></div>
 			</div>
 			{/* right */}
