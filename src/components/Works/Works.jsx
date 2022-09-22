@@ -23,7 +23,7 @@ const Works = () => {
 					{/* dark Mode */}
 					<span style={{ color: darkMode ? "white" : "" }}>Languages</span>
 					<span> Framerworks & Libraries</span>
-					<spane>
+					<span>
 						Front end developer <br /> Full stack developer <br />
 						JavaScript ES6+
 						<br />
@@ -39,7 +39,7 @@ const Works = () => {
 						<br /> Axios <br />
 						Python, Django <br />
 						PostgreSQL <br /> MySQL SQLite <br /> GIT version control
-					</spane>
+					</span>
 					<Link to='contact' smooth={true} spy={true}>
 						<button className='button s-button'>Hire Me</button>
 					</Link>
