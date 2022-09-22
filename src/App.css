@@ -48,6 +48,13 @@
 		opacity: 0.9;
 	}
 
+	.i-right > :nth-child(1) {
+		transform: scale(1);
+		left: -15%;
+		top: -9%;
+		opacity: 0.9;
+	}
+
 	.w-left {
 		margin-top: 200px;
 	}
