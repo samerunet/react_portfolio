@@ -50,8 +50,9 @@ const Intro = () => {
 			</div>
 			{/* right image side */}
 			<div className='i-right'>
-				<img src={Vector} alt='' />
-				<img src={Vector2up} alt='' />
+				{/* <img src={Vector} alt='' />
+				<img src={Vector2up} alt='' /> */}
+
 				<img src={boy} alt='' />
 				<motion.div
 					initial={{ top: "-4%", left: "34%" }}

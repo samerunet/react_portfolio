@@ -36,4 +36,27 @@
 	.App {
 		padding: 0.5rem 1rem;
 	}
+
+	.i-right {
+		margin-left: 30%;
+	}
+
+	.i-right > :nth-child(3) {
+		top: -4.6rem;
+		transform: scale(1);
+		margin-left: 20%;
+		opacity: 0.9;
+	}
+
+	.w-left {
+		margin-top: 200px;
+	}
+
+	.portfolio {
+		margin-top: 300px;
+	}
+
+	.contact-form {
+		margin-bottom: 200px;
+	}
 }
