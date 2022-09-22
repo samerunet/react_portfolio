@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
 import Java from "../../img/javascript-39405.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import JavaScript from "@iconscout/react-unicons/icons/uil-java-script";
+import HTML from "@iconscout/react-unicons/icons/uil-html5";
+import ReactIcon from "@iconscout/react-unicons/icons/uil-react";
+import CSS from "@iconscout/react-unicons/icons/uil-css3-simple";
+import DataBase from "@iconscout/react-unicons/icons/uil-database";
 const Works = () => {
 	// context
 	const theme = useContext(themeContext);
@@ -21,19 +21,24 @@ const Works = () => {
 			<div className='w-left'>
 				<div className='awesome'>
 					{/* dark Mode */}
-					<span style={{ color: darkMode ? "white" : "" }}>
-						Works for All these
-					</span>
-					<span>Brands & Clients</span>
+					<span style={{ color: darkMode ? "white" : "" }}>Languages</span>
+					<span> Framerworks & Libraries</span>
 					<spane>
-						Lorem ispum is simpley dummy text of printing of printing Lorem
+						Front end developer <br /> Full stack developer <br />
+						JavaScript ES6+
 						<br />
-						ispum is simpley dummy text of printingLorem ispum is simpley dummy
-						text
-						<br />
-						y dummy text of printingLorem
-						<br />
-						ispum is simpley dummy text of printing
+						Jquery
+						<br /> RESt API
+						<br /> MongoDB <br />
+						Express
+						<br /> EJS <br />
+						Mongoose <br />
+						HTML , HTML5 <br />
+						CSS3 (flexbox, css grid) <br />
+						Tailwind CSS , Bootstrap <br /> React.js <br /> Node.js
+						<br /> Axios <br />
+						Python, Django <br />
+						PostgreSQL <br /> MySQL SQLite <br /> GIT version control
 					</spane>
 					<Link to='contact' smooth={true} spy={true}>
 						<button className='button s-button'>Hire Me</button>
@@ -55,19 +60,19 @@ const Works = () => {
 					className='w-mainCircle'
 				>
 					<div className='w-secCircle'>
-						<img src={Java} alt='' />
+						<JavaScript color={"orange"} size={"10rem"} />
 					</div>
 					<div className='w-secCircle'>
-						<img src={Java} alt='' />
+						<HTML color={"darkorange"} size={"10rem"} />
 					</div>
 					<div className='w-secCircle'>
-						<img src={Java} alt='' />
+						<ReactIcon color={"lightblue"} size={"10rem"} />
 					</div>{" "}
 					<div className='w-secCircle'>
-						<img src={Java} alt='' />
+						<CSS color={"blue"} size={"10rem"} />
 					</div>
 					<div className='w-secCircle'>
-						<img src={Java} alt='' />
+						<DataBase color={"red"} size={"10rem"} />
 					</div>
 				</motion.div>
 				{/* background Circles */}
