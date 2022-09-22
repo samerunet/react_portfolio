@@ -1,18 +1,18 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
+import Vector2up from "../../img/Vector2.png";
+import Vector from "../../img/Vector1.png";
 import boy from "../../img/boy.png";
-import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
-import FloatinDiv from "../FloatingDiv/FloatingDiv";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import Insta from "@iconscout/react-unicons/icons/uil-instagram";
+import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
+import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 const Intro = () => {
 	// Transition
 	const transition = { duration: 2, type: "spring" };
@@ -42,42 +42,34 @@ const Intro = () => {
 				</Link>
 				{/* social icons */}
 				<div className='i-icons'>
-					<img src={Github} alt='' />
-					<img src={LinkedIn} alt='' />
-					<img src={Instagram} alt='' />
+					<Insta color='black' size={"6rem"} />
+					<Facebook color='black' size={"6rem"} />
+					<Gitub color='black' size={"6rem"} />
+					<Linkedin color='black' size={"6rem"} />
 				</div>
 			</div>
 			{/* right image side */}
 			<div className='i-right'>
-				<img src={Vector1} alt='' />
-				<img src={Vector2} alt='' />
+				<img src={Vector} alt='' />
+				<img src={Vector2up} alt='' />
 				<img src={boy} alt='' />
-				{/* animation */}
-				<motion.img
-					initial={{ left: "-36%" }}
-					whileInView={{ left: "-24%" }}
-					transition={transition}
-					src={glassesimoji}
-					alt=''
-				/>
-
 				<motion.div
-					initial={{ top: "-4%", left: "74%" }}
-					whileInView={{ left: "68%" }}
+					initial={{ top: "-4%", left: "34%" }}
+					whileInView={{ left: "28%" }}
 					transition={transition}
 					className='floating-div'
 				>
-					<FloatinDiv img={crown} text1='Software' text2='Engineer' />
+					<FloatingDiv img={crown} text1='Software' text2='Engineer' />
 				</motion.div>
 
 				{/* animation */}
 				<motion.div
-					initial={{ left: "9rem", top: "18rem" }}
-					whileInView={{ left: "0rem" }}
+					initial={{ left: "9rem", top: "25rem" }}
+					whileInView={{ left: "-24%" }}
 					transition={transition}
 					className='floating-div'
 				>
-					<FloatinDiv
+					<FloatingDiv
 						img={thumbup}
 						text1='Front-end Developer'
 						text2='Solution provider'
