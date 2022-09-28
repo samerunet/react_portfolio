@@ -37,7 +37,7 @@ const Services = () => {
 					outcomes with my problem solving mindset.
 				</spane>
 				{/* <a href={Resume} download> */}
-				<button className='button s-button'>Download CV</button>
+				<button className='button s-button'>Resume</button>
 				{/* </a> */}
 				<div className='blur s-blur1' style={{ background: "#ABF1FF94" }}></div>
 			</div>

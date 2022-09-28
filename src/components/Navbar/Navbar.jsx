@@ -30,15 +30,12 @@ const navbar = () => {
 							</Link>
 						</li>
 						<li>
-							<Link to='testimonial' spy={true} smooth={true}>
+							{/* <Link to='testimonial' spy={true} smooth={true}>
 								About me
-							</Link>
+							</Link> */}
 						</li>
 					</ul>
 				</div>
-				<Link to='contact' spy={true} smooth={true}>
-					<button className='button n-button'>Contact</button>
-				</Link>
 			</div>
 		</div>
 	);

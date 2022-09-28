@@ -21,9 +21,9 @@ function App() {
 		>
 			<Navbar />
 			<Intro />
+			<Portfolio />
 			<Services />
 			<Works />
-			<Portfolio />
 
 			<Contact />
 			<Footer />

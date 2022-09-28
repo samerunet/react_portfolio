@@ -29,12 +29,8 @@ const Intro = () => {
 					{/*mode change */}
 					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
 					<span>Sami Sipahi</span>
-					<span>
-						Frontend Developer with experience in web development and
-						development, producting the Quality work and
-						<br />
-						Quality code by applying the right Algorithm to produce the best
-						outcome
+					<span class='statement'>
+						Software Engineer | JavaScript | React | Postgres | MongoDB
 					</span>
 				</div>
 				<Link to='contact' smooth={true} spy={true}>
@@ -42,8 +38,6 @@ const Intro = () => {
 				</Link>
 				{/* social icons */}
 				<div className='i-icons'>
-					<Insta color='black' size={"6rem"} />
-					<Facebook color='black' size={"6rem"} />
 					<Gitub color='black' size={"6rem"} />
 					<Linkedin color='black' size={"6rem"} />
 				</div>
@@ -60,7 +54,7 @@ const Intro = () => {
 					transition={transition}
 					className='floating-div'
 				>
-					<FloatingDiv img={crown} text1='Software' text2='Engineer' />
+					<FloatingDiv img={crown} text1='Full Stack' text2='Developer' />
 				</motion.div>
 
 				{/* animation */}
