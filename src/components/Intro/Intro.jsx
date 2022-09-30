@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Vector2up from "../../img/Vector2.png";
-import Vector from "../../img/Vector1.png";
 import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -9,8 +7,6 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 const Intro = () => {
@@ -38,7 +34,9 @@ const Intro = () => {
 				</Link>
 				{/* social icons */}
 				<div className='i-icons'>
-					<Gitub color='black' size={"6rem"} />
+					<a href='https://github.com/samerunet' target='blank'>
+						<Gitub color='black' size={"6rem"} />
+					</a>
 					<Linkedin color='black' size={"6rem"} />
 				</div>
 			</div>
