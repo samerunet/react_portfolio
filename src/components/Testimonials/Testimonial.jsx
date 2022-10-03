@@ -98,7 +98,7 @@ const Testimonial = () => {
 								<span>{item.review1}</span>
 								<span>{item.review2}</span>
 								<span>{item.review3}</span>
-								<span className='outside-wrapper'>
+								<div className='outside-wrapper'>
 									<a className='outside' href={item.linkFront}>
 										Live Front
 									</a>
@@ -111,7 +111,7 @@ const Testimonial = () => {
 									<a className='outside' href={item.linkGitBack}>
 										GitHub Backend
 									</a>
-								</span>
+								</div>
 							</div>
 						</SwiperSlide>
 					);

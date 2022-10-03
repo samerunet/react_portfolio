@@ -37,7 +37,9 @@ const Intro = () => {
 					<a href='https://github.com/samerunet' target='blank'>
 						<Gitub color='black' size={"6rem"} />
 					</a>
-					<Linkedin color='black' size={"6rem"} />
+					<a href='https://www.linkedin.com/in/sami-sipahi/'>
+						<Linkedin color='black' size={"6rem"} />
+					</a>
 				</div>
 			</div>
 			{/* right image side */}
