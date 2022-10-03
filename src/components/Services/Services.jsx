@@ -24,8 +24,8 @@ const Services = () => {
 			{/* left side */}
 			<div className='awesome'>
 				{/* dark mode */}
-				<span style={{ color: darkMode ? "white" : "" }}>Developer</span>
-				<span>TOOLBOX</span>
+				<span style={{ color: darkMode ? "white" : "" }}></span>
+				<span>Front End Developer</span>
 				<spane>
 					I'm a passionate, informative, and innovative Frontend Engineer who
 					works innovatively, collectively, and diligently

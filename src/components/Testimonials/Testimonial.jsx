@@ -75,8 +75,7 @@ const Testimonial = () => {
 		<div className='t-wrapper' id='testimonial'>
 			<div className='t-heading'>
 				<span></span>
-				<span>Exceptional Portfolio </span>
-				<span>by me...</span>
+				<span>Portfolio </span>
 				<div
 					className='blur t-blur1'
 					style={{ background: "var(--purple)" }}
