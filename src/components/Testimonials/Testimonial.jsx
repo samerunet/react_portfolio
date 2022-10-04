@@ -12,19 +12,6 @@ import finsta from "../../img/finsta.png";
 const Testimonial = () => {
 	const projects = [
 		{
-			image: uno,
-			title: "Uno card game clone",
-			review: "Created uno card game clone     ",
-			review1:
-				"Served backend using Java and SpringBoot/Hibernate with user model and tested using IntelleJ and Postman",
-			review2: "Front-end served with React.js with react Tailwind CSS",
-			review3:
-				" react router , axios, framer motion Implemented Javascript methods and functions in order to utilize Array manipulations between users",
-			linkFront: "https://github.com/samerunet/milestone/tree/main/react_uno",
-			linkBack: "https://github.com/samerunet/milestone/tree/main/react_uno",
-			linkGit: "https://github.com/samerunet/milestone/tree/main/react_uno",
-		},
-		{
 			image: yello,
 			title: "yello",
 			review: "Social media application with full backend support ",
@@ -39,6 +26,20 @@ const Testimonial = () => {
 			linkGit: "https://github.com/samerunet/milestone/tree/main/react_uno",
 			linkGitBack: "https://github.com/amiemora/yello_backend_2",
 		},
+		{
+			image: uno,
+			title: "Uno card game clone",
+			review: "Created uno card game clone     ",
+			review1:
+				"Served backend using Java and SpringBoot/Hibernate with user model and tested using IntelleJ and Postman",
+			review2: "Front-end served with React.js with react Tailwind CSS",
+			review3:
+				" react router , axios, framer motion Implemented Javascript methods and functions in order to utilize Array manipulations between users",
+			linkFront: "https://dry-mountain-24907.herokuapp.com/login",
+			linkBack: "https://github.com/samerunet/milestone/tree/main/react_uno",
+			linkGit: "https://github.com/samerunet/milestone/tree/main/react_uno",
+		},
+
 		{
 			image: finsta,
 			title: "Finstagram",
@@ -99,16 +100,16 @@ const Testimonial = () => {
 								<span>{item.review2}</span>
 								<span>{item.review3}</span>
 								<div className='outside-wrapper'>
-									<a className='outside' href={item.linkFront}>
+									<a className='outside' href={item.linkFront} target='blank'>
 										Live Front
 									</a>
-									<a className='outside' href={item.linkBack}>
+									<a className='outside' href={item.linkBack} target='blank'>
 										Live Back
 									</a>
-									<a className='outside' href={item.linkGit}>
-										GitHub
+									<a className='outside' href={item.linkGit} target='blank'>
+										GitHub Front
 									</a>
-									<a className='outside' href={item.linkGitBack}>
+									<a className='outside' href={item.linkGitBack} target='blank'>
 										GitHub Backend
 									</a>
 								</div>

@@ -84,8 +84,42 @@
 	.t-wrapper {
 		padding: 0;
 	}
+	.testimonial {
+		width: 80%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 20px;
+		box-sizing: border-box;
+	}
+
+	.testimonial a {
+		font-size: 10px;
+		padding: 10px;
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+		background-color: rgba(103, 103, 233, 0.603);
+	}
+
+	.testimonial a:active {
+		color: white;
+	}
+	.testimonial span {
+		font-size: 12px;
+	}
+	.outside {
+		margin: 0%;
+	}
+	.outside-wrapper {
+		margin: 0%;
+	}
+
+	.t-wrapper .swiper-slide {
+		margin: 0px;
+	}
 	.testimonial > img {
-		width: 70px;
-		height: 70px;
+		width: 150px;
+		height: 100px;
 	}
 }
