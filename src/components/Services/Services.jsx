@@ -26,16 +26,20 @@ const Services = () => {
 				{/* dark mode */}
 				<span style={{ color: darkMode ? "white" : "" }}></span>
 				<span>Front End Developer</span>
-				<spane>
-					I'm a passionate, informative, and innovative Frontend Engineer who
-					works innovatively, collectively, and diligently
+				<span>
+					I specialize in front-end web development, carefully crafting and
+					preserving design integrity, and delivering on the promise of
+					interactivity and user experience. <br />I love working with clients
+					directly, or as part of a team to create new solutions.
+					<br /> I've been a part of some incredible projects and I approach
+					each one as an opportunity to learn something new. <br />
+					My ability to adapt, work under deadlines or constant pressure, and -
+					most importantly - communicate effectively, stems from my experience .
+					<br /> Core languages: HTML5, CSS3, JavaScript (ES6) Always open to
+					discussing new technologies and practices.
 					<br />
-					to deliver excellent products. I am motivated by new environments
-					where I get to contribute my experience and
 					<br />
-					new technologies to different projects. I always aim for the best
-					outcomes with my problem solving mindset.
-				</spane>
+				</span>
 				{/* <a href={Resume} download> */}
 				<button className='button s-button'>Resume</button>
 				{/* </a> */}
@@ -51,10 +55,8 @@ const Services = () => {
 				>
 					<Card
 						emoji={HeartEmoji}
-						heading={"Framework"}
-						detail={
-							"React.js, Jquery, RESt API,MongoDB, Express.js,EJS, Mongoose , Bootstrap , Tailwind CSS "
-						}
+						heading={"Languages: "}
+						detail={" JavaScript(ES6+), HTML5, CSS3, Node.js   "}
 					/>
 				</motion.div>
 				{/* second card */}
@@ -65,8 +67,10 @@ const Services = () => {
 				>
 					<Card
 						emoji={Glasses}
-						heading={"Full stack developer"}
-						detail={"Html, Css, JavaScript, Python, Nodejs, Java"}
+						heading={"Frameworks:"}
+						detail={
+							" React, Styled-component, Bootstrap, Tailwind css , Express , Postman, Postman, Django, JQuery, Heroku, Git version, EJS, Mongoose"
+						}
 					/>
 				</motion.div>
 				{/* 3rd */}
@@ -77,10 +81,8 @@ const Services = () => {
 				>
 					<Card
 						emoji={Humble}
-						heading={"Library"}
-						detail={
-							"Lorem ispum dummy text are usually use in section where we need some random text"
-						}
+						heading={"Data base: "}
+						detail={"SQLite, MySQL, PostgreSQL, MongoDB"}
 						color='rgba(252, 166, 31, 0.45)'
 					/>
 				</motion.div>

@@ -59,7 +59,7 @@
 	.services {
 		flex-direction: row;
 		gap: 5rem;
-		height: 66rem;
+		height: 36rem;
 		padding: 0;
 	}
 
@@ -78,7 +78,7 @@
 		margin: 0;
 		flex-direction: row;
 		gap: 5rem;
-		height: 15rem;
+		height: 66rem;
 		padding: 0;
 		flex-wrap: wrap;
 	}

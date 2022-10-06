@@ -26,7 +26,7 @@ const Intro = () => {
 					<span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
 					<span>Sami Sipahi</span>
 					<span class='statement'>
-						Software Engineer | JavaScript | React | Postgres | MongoDB
+						Frontend Engineer | JavaScript | React | Postgres | MongoDB
 					</span>
 				</div>
 				<Link to='contact' smooth={true} spy={true}>
@@ -54,11 +54,11 @@ const Intro = () => {
 					transition={transition}
 					className='floating-div'
 				>
-					<FloatingDiv img={crown} text1='Full Stack' text2='Developer' />
+					<FloatingDiv img={thumbup} text1='Frontend' text2='Developer' />
 				</motion.div>
 
 				{/* animation */}
-				<motion.div
+				{/* <motion.div
 					initial={{ left: "-19rem", top: "15rem" }}
 					whileInView={{ left: "14%" }}
 					transition={transition}
@@ -69,7 +69,7 @@ const Intro = () => {
 						text1='Front-end Developer'
 						text2='Solution provider'
 					/>
-				</motion.div>
+				</motion.div> */}
 
 				<div className='blur' style={{ background: "rgb(238 210 255)" }}></div>
 				<div
