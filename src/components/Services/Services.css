@@ -13,6 +13,7 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
+	padding-bottom: 10rem;
 	/* gap: 20px; */
 }
 
@@ -29,7 +30,7 @@
 .awesome > :nth-child(3) {
 	color: var(--gray);
 	font-size: 14px;
-	margin-top: 1rem;
+	margin-top: 4rem;
 }
 .s-button {
 	width: 8rem;
@@ -39,6 +40,7 @@
 /* right sided */
 .cards {
 	position: relative;
+	margin-top: 15rem;
 }
 .cards > * {
 	position: absolute;
