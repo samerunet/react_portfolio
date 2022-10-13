@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-// import Resume from "./resume.pdf";
+import Resume from "./resume.pdf";
 
 const Services = () => {
 	// context
@@ -40,9 +40,9 @@ const Services = () => {
 					<br />
 					<br />
 				</span>
-				{/* <a href={Resume} download> */}
-				<button className='button s-button'>Resume</button>
-				{/* </a> */}
+				<a href={Resume} download>
+					<button className='button s-button'>Resume</button>
+				</a>
 				<div className='blur s-blur1' style={{ background: "#ABF1FF94" }}></div>
 			</div>
 			{/* right */}

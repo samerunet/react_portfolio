@@ -2,13 +2,13 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
+
 const Intro = () => {
 	// Transition
 	const transition = { duration: 2, type: "spring" };
