@@ -21,7 +21,8 @@ const Testimonial = () => {
 				"Full CRUD for user ( create user , create post by user , update user post or delete, view all post by any user ",
 			review3:
 				" Served front end using React.js , utilized react router , react Tailwind Css, react components. User permission to view main content after auth. Utilized props and destructure props in components",
-			linkFront: "https://boiling-lake-14034.herokuapp.com/login",
+			linkFront:
+				"https://63a2634ac8aff305da276de1--celebrated-croquembouche-a0358d.netlify.app/",
 			linkBack: "https://secure-forest-62515.herokuapp.com/api",
 			linkGit: "https://github.com/samerunet/milestone/tree/main/react_uno",
 			linkGitBack: "https://github.com/amiemora/yello_backend_2",
